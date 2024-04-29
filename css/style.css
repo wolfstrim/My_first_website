@@ -70,3 +70,77 @@ body {
     height: 300px; 
     margin-top: 40px;
 }
+.form__reg {
+    margin-bottom: 20px;
+}
+
+.form {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+}
+
+.btn_reg {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #4d8572;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn_reg:hover {
+    background-color:  #4d8572;
+}
+.container .col-12 .hello {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff; 
+}
+
+.container .col-12 form {
+    margin-top: 20px;
+}
+
+.container .col-12 input[type="text"],
+.container .col-12 textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+}
+
+.container .col-12 button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    color: #fff;
+    background-color: rgb(92, 79, 121);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.container .col-12 button:hover {
+    background-color: rgb(92, 79, 121);
+}
+
+.container .col-12 {
+    text-align: center; /* Выравниваем содержимое по центру */
+    margin-bottom: 20px; /* Добавляем отступ снизу */
+}
+
+.container .col-12 form input[type="file"] {
+    display: inline-block; /* Делаем элемент блочным, чтобы применить text-align: center; */
+    margin-bottom: 10px; /* Добавляем отступ снизу */
+}
